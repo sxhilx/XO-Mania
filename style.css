@@ -1,0 +1,61 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  background-color: #c4c4c4;
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.grid-container{
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 375px;
+  height: 375px;
+}
+
+.grid-item{
+  width: 120px;
+  height: 120px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  background-color: #8b8b8b;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item:hover{
+  background-color: #c2a964;
+  cursor: pointer;
+}
+
+.player-turn{
+  font-size: 25px;
+}
+
+.restart-button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  height: 40px;
+  width: 120px;
+  background-color: #c4c4c4;
+  border: 2px solid black;
+  border-radius: 40px;
+  font-size: 17px;
+}
+
+.restart-button:hover{
+  background-color: black;
+  color: #c4c4c4;
+  cursor: pointer;
+}
