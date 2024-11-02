@@ -1,2 +1,2 @@
-# tic-tac-toe
-Welcome to my Tic-Tac-Toe game project! This simple yet classic game is built using HTML, CSS, and JavaScript, making it an ideal project for beginners to learn web development fundamentals.
+# XO Mania 
+XO Mania is a simple, fun twist on the classic Tic-Tac-Toe game, brought to life with HTML, CSS, and JavaScript. Inspired by the Minecraft crafting table, the 3x3 grid has a familiar blocky look that adds a playful vibe to each match.
